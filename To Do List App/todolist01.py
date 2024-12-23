@@ -51,17 +51,15 @@ def list_tasks():
     else:
         print("No tasks found! 📭")
 
-# Initialize the database and table
 create_table()
 
-# Main menu loop
 while True:
     print("\nTo Do List APP")
     print("-------------------------")
-    print("1. Add new task")
-    print("2. Delete task")
-    print("3. Update task")
-    print("4. List tasks")
+    print("1. Add new task")    #Create
+    print("2. List tasks")      #Read
+    print("3. Update task")     #Update
+    print("4. Delete task")     #Dellete
     print("5. Exit app")
 
     usr_input = input("Please enter your option (1-5): ")
@@ -73,8 +71,6 @@ while True:
         add_task(task)
     elif usr_input == "2":
         list_tasks()
-        task_id = int(input("Enter the ID of the task to delete: "))
-        delete_task(task_id)
     elif usr_input == "3":
         list_tasks()
         task_id = int(input("Enter the ID of the task to update: "))
@@ -82,5 +78,7 @@ while True:
         update_task(task_id, new_task)
     elif usr_input == "4":
         list_tasks()
+        task_id = int(input("Enter the ID of the task to delete: "))
+        delete_task(task_id)
     else:
         print("Invalid option! Please choose a number between 1 and 5. ❌")
