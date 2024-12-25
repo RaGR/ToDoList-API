@@ -108,7 +108,3 @@ This documentation provides a starting point for understanding the API endpoints
   * **Pagination:** Implement pagination for better performance with large datasets.
   * **Testing:** Write unit and integration tests to ensure code quality.
   * **Deployment:** Explore deployment options like Heroku, AWS, or Docker.
-
-This README provides a starting point for your TodoList API project. Feel free to customize and expand it based on your specific requirements.
-
-```
