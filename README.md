@@ -1,6 +1,7 @@
 Dementalization for the project:
 
 ## Project Structure
+```
 To Do List App/
 │
 ├── __init__.py
@@ -20,6 +21,7 @@ To Do List App/
 └── utils/
     ├── __init__.py
     └── helpers.py
+```
 
 
 ## Basic Algorithm of the Program
