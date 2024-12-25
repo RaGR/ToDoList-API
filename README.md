@@ -3,12 +3,13 @@
 
 # Project structure
 ```
+.
 ├── **db.sqlite3**                       # *Database File* (SQLite, for development)
 ├── **manage.py**                         # *Django Project Management Script*
 ├── **req.txt**                           # *Dependencies/Requirements File* (pip)
 ├── **mysite01**                          # *Project Directory* (settings for the entire project)
 │   ├── **settings.py**                    # *Project Settings* (database, installed apps, etc.)
-│   ├── **urls.py**                        # *Project URL Configuration* (top-level URL routing)
+│   └── **urls.py**                        # *Project URL Configuration* (top-level URL routing)
 ├── **mytodolist01**                       # *Application Directory* (a component of the project)
 │   ├── **admin.py**                       # *Admin Interface Customizations*
 │   ├── **apps.py**                        # *Application Configuration* (optional, for app-specific settings)
@@ -16,7 +17,7 @@
 │   ├── **serializer.py**                  # *Data Serialization* (for APIs, converting data types)
 │   ├── **tests.py**                       # *Unit Tests and Integration Tests*
 │   ├── **urls.py**                        # *Application URL Configuration* (URL routing for this app)
-│   ├── **views.py**                       # *Business Logic* (functions handling HTTP requests/responses)
+│   └── **views.py**                       # *Business Logic* (functions handling HTTP requests/responses)
 ```
 
 # TodoList API (DRF Python)
