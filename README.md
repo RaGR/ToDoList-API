@@ -1,6 +1,6 @@
 Dementalization for the project:
 
-Project structure:
+## Project Structure
 To Do List App/
 │
 ├── __init__.py
@@ -21,8 +21,23 @@ To Do List App/
     ├── __init__.py
     └── helpers.py
 
-Basic algorithm of the program:
-1. add new task	-> get input -> put to database ==> setup SQlite sys!!!
-2. delete task	 -> select task to delete
-3. update task	-> show task title -> select task -> show detail -> get new input -> save to database
-5. exit app 	-> how to halt in py code
+
+## Basic Algorithm of the Program
+
+1. **Add New Task**
+   - Get input
+   - Put to database
+   - **Setup SQLite system!!!**
+   
+2. **Delete Task**
+   - Select task to delete
+   
+3. **Update Task**
+   - Show task title
+   - Select task
+   - Show detail
+   - Get new input
+   - Save to database
+   
+4. **Exit App**
+   - How to halt in Python code?
