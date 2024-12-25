@@ -49,7 +49,7 @@ This repository contains a Django REST Framework (DRF) implementation of a simpl
 2.  **Install dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r req.txt
     ```
 
 3.  **Run migrations:**
