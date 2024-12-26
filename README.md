@@ -1,4 +1,5 @@
 #mysite01 directory = Django Project
+
 #mysite01 directory = Django Application
 
 # Project structure
