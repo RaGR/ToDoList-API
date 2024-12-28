@@ -15,5 +15,3 @@
    - Get new input
    - Save to database
    
-4. **Exit App**
-   - How to halt in Python code?
