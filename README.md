@@ -4,8 +4,11 @@
 
 #12/28/2024 UPDATE:
     1 - MySQL server connected as DataBase server.
+    
     2 - Login/LogOut Browser-view and authentication added.
+    
     3 - Users access level is now managed and each user can only view and manipulate their own data.
+    
     4 - JWT token is now added at end point "/api/token/" via POST method.
     
 
