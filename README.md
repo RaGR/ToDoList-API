@@ -2,12 +2,19 @@
 
 #mytodolist01 directory = Django Application
 
+#12/28/2024 UPDATE:
+    1 - MySQL server connected as DataBase server.
+    2 - Login/LogOut Browser-view and authentication added.
+    3 - Users access level is now managed and each user can only view and manipulate their own data.
+    4 - JWT token is now added at end point "/api/token/" via POST method.
+    
+
 # Project structure
 ```
 .
 ├── db.sqlite3                       # Database File (SQLite, for development)
 ├── manage.py                         # Django Project Management Script
-├── req.txt                           # Dependencies/Requirements File (pip)
+├── requirments.txt                           # Dependencies/Requirements File (pip)
 ├── mysite01                          # Project Directory (settings for the entire project)
 │   ├── settings.py                    # Project Settings (database, installed apps, etc.)
 │   └── urls.py                        # Project URL Configuration (top-level URL routing)
