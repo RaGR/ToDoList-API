@@ -1,8 +1,8 @@
-#mysite01 directory = Django Project
+mysite01 directory = Django Project
 
-#mytodolist01 directory = Django Application
+mytodolist01 directory = Django Application
 
-#12/28/2024 UPDATE:
+# 12/28/2024 UPDATE:
 
     1 - MySQL server connected as DataBase server.
     
