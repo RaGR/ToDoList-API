@@ -3,6 +3,7 @@
 #mytodolist01 directory = Django Application
 
 #12/28/2024 UPDATE:
+
     1 - MySQL server connected as DataBase server.
     
     2 - Login/LogOut Browser-view and authentication added.
